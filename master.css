@@ -1,6 +1,8 @@
 h1 {
     color: gray;
     background-color: silver;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
