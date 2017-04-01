@@ -13,25 +13,26 @@ h1 {
     margin: 0;
 }
 
-ul {
-    position: fixed;
-}
+/* ul { */
+/*     position: fixed; */
+/* } */
 
-li {
-    display: inline;
-}
+/* li { */
+/*     display: inline; */
+/* } */
 
-li a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
+/* li a { */
+/*     color: white; */
+/*     padding: 14px 16px; */
+/*     text-decoration: none; */
 
-}
+/* } */
 
-li a:hover {
-    color: grey;
-    text-decoration: none;
-}
+/* li a:hover { */
+/*     color: grey; */
+/*     text-decoration: none; */
+/* } */
+
 
 body {
     font-family: "Helvetica";
@@ -41,12 +42,26 @@ p {
     color: rgb(100,100,100);
 }
 
-// Styles for blocks
-.block {
-    height: 100%;
-    width: 100%;
+// Scrolling buttons
+.nav {
+    display: block;
+    height: 40px;
+    width: 40px;
+    max-height: 40px;
+    max-width: 40px;
 }
 
+#down {
+    position: fixed;
+    bottom: 0;
+}
+
+#up {
+    position: fixed;
+    top: 0;
+}
+
+// Styles for blocks
 .top {
     height: 100vh;
 }
