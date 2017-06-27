@@ -1,0 +1,27 @@
+// Default Styles
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: url(heh.jpg) center fixed;
+    /* -webkit-background-size: cover; */
+    /* -moz-background-size: cover; */
+    /* -o-background-size: cover; */
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10vh;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.box {
+    height: 60vh;
+    width: 60vw;
+    color: #000000;
+    margin: auto;
+    border-style: solid;
+}
