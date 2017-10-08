@@ -1,2 +1,2 @@
 # bumshakabum.github.io
-my personal site
+my experimentation site
