@@ -24,4 +24,23 @@ h1 {
     color: #000000;
     margin: auto;
     border-style: solid;
+    text-align: center;
+}
+
+.box a {
+    outline: none;
+}
+
+.box img {
+    height: 64px;
+}
+
+.icon {
+    display: inline-block;
+    line-height: 50vh;
+    width: 15vw;
+}
+
+.icon img {
+    vertical-align: middle;
 }
