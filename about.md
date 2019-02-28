@@ -4,15 +4,19 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### Who am I?
+I'm an average college student with a below average GPA studying computer science.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+### What is this page for?
+Right now, I'm putting this page up because I wanted to see how difficult it'd
+be to use Jekyll. I was originally going to use org-mode with Jekyll and then
+export my org files to markdown, which Jekyll would then use to generate this
+static site, but it's actually simpler for me to just use markdown directly, so
+I'm just using markdown files. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+The secondary purpose, which will probably turn into the primary purpose
+eventually, is to post some of my thoughts and projects.
 
+![test pic][yellowtree]
 
-[jekyll-organization]: https://github.com/jekyll
+[yellowtree]: /assets/images/ytree.jpg
