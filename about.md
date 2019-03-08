@@ -5,7 +5,9 @@ permalink: /about/
 ---
 
 ### Who am I?
-I'm an average college student with a below average GPA studying computer science.
+I'm Bum (pronounced boom like the onomatopoeia). I'm pursuing a bachelor's
+degree in computer science. Why am I telling you this? Basically so that you can
+distrust everything that I write because I'm just a student.
 
 ### What is this page for?
 Right now, I'm putting this page up because I wanted to see how difficult it'd
