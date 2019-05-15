@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Setting up Jekyll"
 author: Bum Kim
 ---

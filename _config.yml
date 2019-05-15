@@ -24,7 +24,7 @@ github_username:  bumshakabum
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: garth-jekyll-theme
 plugins:
   - jekyll-feed
 
