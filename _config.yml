@@ -8,27 +8,6 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# 5. Collections
-collections:
-  posts:
-    title: Bum Kim # Needed for Siteleaf
-    output: true
-    description: "Inside the mind of a perfectly average mind." # The post list page content
-
-# 6. Jekyll collections settings
-defaults:
-  -
-    scope:
-      path: ""
-      type: pages
-    values:
-      layout: page # Default layout
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-layout: post # Default layout
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -43,7 +22,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: bumshakabum
 github_username:  bumshakabum
-logo: "/assets/GitHub-Mark/PNG/GitHub-Mark-64px.png"
 
 # Build settings
 markdown: kramdown
