@@ -14,23 +14,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Bum Kim
-email: bumcrystlbum@gmail.com
+email: bum.s.kim42@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Inside of a perfectly average mind.
+  Computer science student interested in programming languages and animation.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://bumshakabum.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: bumshakabum
+twitter_username: bumshakabum
 github_username:  bumshakabum
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
 # Disqus comments
 disqus:
     shortname: bumshakabum-github-io
+
+# collections
+collections:
+  projects:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
