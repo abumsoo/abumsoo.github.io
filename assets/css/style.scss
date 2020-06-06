@@ -14,11 +14,11 @@ header {
 
 section {
     width: 600px;
+    font-size: 1.1em;
 }
 
 .post-box {
     background: whitesmoke;
-    border: 3px solid silver;
     border-radius: 5px;
     padding: 10px;
     margin-top: 10px;
@@ -30,8 +30,43 @@ section {
   width: 55%;
 }
 
-.wrapper header h1 {
-    text-align: center;
+.wrapper header {
+  h2 {
+    a {
+      color: #303030;
+    }
+    a:hover {
+      color: #808080;
+    }
+  }
+  h1 {
+    text-align: left;
+    a {
+      color: #303030;
+    }
+    a:hover {
+      color: #808080;
+    }
+  }
+}
+
+
+.wrapper header a img {
+    width: 196px;
+    height: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.wrapper footer .view a {
+  color: black;
+  font-size: 1.1em;
+  img {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 4px;
+  }
 }
 
 .post-preview {

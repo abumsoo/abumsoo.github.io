@@ -18,15 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-logo: assets/images/prof_pic_comp.png
+logo: assets/images/prof_pic_comp_b.png
 title: Bum Soo Kim
 email: bum.s.kim42@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-             Computer science and programming projects.
+             A place for my computer science and programming projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: a_bumsoo
-github_username:  a-bumsoo
+twitter_username: abumsoo
+github_username:  abumsoo
+linkedin_username: bumskim
+
+github:
+    is_user_page: true
+    owner_url: https://github.com/abumsoo
 
 # Build settings
 theme: jekyll-theme-minimal
