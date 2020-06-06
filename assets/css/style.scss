@@ -16,6 +16,16 @@ section {
     width: 600px;
 }
 
+.post-box {
+    background: whitesmoke;
+    border: 3px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: whitesmoke;
+}
+
 .wrapper {
   width: 55%;
 }
@@ -34,7 +44,9 @@ section {
     // needed for box-link
     position:relative;
 }
-
+.post-preview:hover {
+    border-color: gray;
+}
 // https://stackoverflow.com/questions/796087/make-a-div-into-a-link
 .box-link {
   position:absolute;
