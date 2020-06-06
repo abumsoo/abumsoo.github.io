@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-logo: assets/images/prof_pic_comp.jpg
+logo: assets/images/prof_pic_comp.png
 title: Bum Soo Kim
 email: bum.s.kim42@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -29,7 +29,7 @@ twitter_username: a_bumsoo
 github_username:  a-bumsoo
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
