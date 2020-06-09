@@ -9,12 +9,38 @@ body {
 }
 
 header {
-    width: 240px;
+    width: 11%;
 }
 
 section {
-    width: 600px;
+    width: 70%;
     font-size: 1.1em;
+}
+
+.resume-box {
+    background: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: whitesmoke;
+
+.row {
+  display: flex;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 70%;
+  margin-right: 5%;
+}
+
+.right {
+  width: 30%;
+}
 }
 
 .post-box {
@@ -24,11 +50,10 @@ section {
     margin-top: 10px;
     margin-bottom: 10px;
     background: whitesmoke;
-    width: 700px;
 }
 
 .wrapper {
-  width: 55%;
+  width: 65%;
 }
 
 .wrapper header {
