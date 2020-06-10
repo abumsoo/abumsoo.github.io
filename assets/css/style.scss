@@ -17,30 +17,52 @@ section {
     font-size: 1.1em;
 }
 
+
+
+.unbold {
+  font-weight: normal;
+}
+
 .resume-box {
-    background: whitesmoke;
-    border-radius: 5px;
-    padding: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background: whitesmoke;
+  background: whitesmoke;
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: whitesmoke;
 
-.row {
-  display: flex;
-}
+  ul {
+    padding-left: 2em;
+  }
 
-.column {
-  float: left;
-}
+  .row {
+    display: flex;
+  }
 
-.left {
-  width: 70%;
-  margin-right: 5%;
-}
+  .column {
+    float: left;
+  }
 
-.right {
-  width: 30%;
-}
+  .left {
+    width: 70%;
+    margin-right: 5%;
+  }
+
+  .right {
+    width: 30%;
+
+
+  }
+  h2 {
+    margin-bottom: 0.6em;
+    margin-top: 1em;
+  }
+
+    h4 {
+      margin-bottom: 0.5em;
+      margin-top: 0.5em;
+      padding-left: 0.5em;
+    }
 }
 
 .post-box {
