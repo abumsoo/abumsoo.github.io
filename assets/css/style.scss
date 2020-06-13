@@ -145,3 +145,10 @@ section {
      make sure you have an empty gif
   background-image: url('empty.gif');*/
 }
+
+
+@media print, screen and (max-width: 960px) {
+  header {
+    padding-right:0px;
+  }
+}
