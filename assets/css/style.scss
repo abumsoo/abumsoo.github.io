@@ -161,13 +161,13 @@ section {
   }
 
   .resume-box {
-    .left {
-      width: 100%;
+    .row {
+      display: inline;
     }
+  }
 
-    .right{
-      width: 100%;
-    }
+  .wrapper header a img {
+    width: 128px;
   }
 
 }
