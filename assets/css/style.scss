@@ -50,9 +50,8 @@ section {
 
   .right {
     width: 30%;
-
-
   }
+
   h2 {
     margin-bottom: 0.6em;
     margin-top: 1em;
@@ -159,6 +158,16 @@ section {
 
   footer {
     width: 100%;
+  }
+
+  .resume-box {
+    .left {
+      width: 100%;
+    }
+
+    .right{
+      width: 100%;
+    }
   }
 
 }
