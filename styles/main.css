@@ -1,6 +1,6 @@
 body {
     background: #C5EBFE;
-    color: #8F00FF;
+    color: gray;
     font-family: Roboto, arial;
     font-size: 14px;
 }
@@ -14,9 +14,8 @@ h2 {
 }
 
 .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     padding: 0.5em;
     font-size: 1.5em;
 }
@@ -24,18 +23,27 @@ h2 {
 .nav-left, .nav-center, .nav-right {
     background-color: white;
     border-radius: 4px;
-    padding: 8px;
+    padding: 16px;
+}
+
+.nav-left {
+    justify-self: start;
+}
+
+.nav-center {
+    justify-self: center;
 }
 
 .nav-right {
-    display: flex;
-    justify-content: space-evenly;
+    justify-self: end;
+}
+
+.nav-right a {
+    padding: 0 16px;
 }
 
 .navbar a {
-    padding: 0px 4px;
     text-decoration: none;
-    color: #B49FDC;
 }
 
 .container {
@@ -52,7 +60,7 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #8F00FF;
+    color: gray;
 }
 
 a:active {
@@ -71,7 +79,7 @@ a:active {
 }
 
 .main .item .title {
-    background: #FEFD97;
+    background: #f197c0;
     width: 100%;
     height: 30%;
     border-radius: 1em 1em 0 0;
