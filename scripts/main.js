@@ -1,5 +1,5 @@
 function swapText() {
-  let hobby = document.querySelector('#hobby');
+  let hobby = document.querySelector('.slider');
   hobby.textContent = hobbies[i];
   i++;
   if (i === hobbies.length) i = 0;
