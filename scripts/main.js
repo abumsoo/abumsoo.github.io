@@ -6,7 +6,9 @@ function swapText() {
 }
 
 let i = 1;
-let hobbies = ["climb","swing dance", "write", "think", "listen to people",
-               "make others laugh", "explore new hobbies"];
+let hobbies = [
+  "climb","code", "write", "think", "listen",
+  "laugh", "draw", "sing", "explore hobbies"
+];
 
 window.setInterval(swapText, 1000);
