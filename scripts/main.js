@@ -7,7 +7,7 @@ function swapText() {
 
 let i = 1;
 let hobbies = [
-  "climb","code", "write", "think", "listen",
+  "learn", "climb","code", "write", "think", "listen",
   "laugh", "draw", "sing", "explore hobbies"
 ];
 
