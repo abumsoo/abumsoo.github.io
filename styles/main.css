@@ -1,55 +1,50 @@
 body {
     font-family: Roboto;
-    font-size: 24px;
-    line-height: 1.3em;
+    font-size: 16px;
 }
 
-h1 {
-    display: inline;
+h1, h2 {
+    font-size: 2rem;
     font-weight: bold;
 }
 
 a {
-    color: #ff006d;
-    font-weight: bold;
-    border-bottom: 4px solid #ff006d;
     text-decoration: none;
-    outline: none;
+    color: #ff006d;
+}
+
+a:hover {
+    background: #ff006d20;
+    border-bottom: 0.2rem solid #ff006d;
+}
+
+.container {
+    margin: 0 5vw;
 }
 
 .content {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    margin: 128px auto;
-    justify-content: space-between;
-    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 10vh;
+    max-width: 768px;
 }
 
-.me {
-    width: 40%;
+.block {
+    height: 150px;
 }
 
-.me p {
-    padding: 12px 0;
+.heading {
+    border-bottom: 0.1rem solid rgba(0,0,0,0.2);
 }
 
-.projects {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+.role {
+    padding-top: 0.3rem;
 }
 
-.projects h2 {
-    margin-bottom: 12px;
-    font-weight: bold;
+.link {
+    padding: 0.3rem 0;
 }
 
-.project-item {
-    padding: 12px 0;
-}
-
-.hobbies {
-    padding-left: 12px;
-    margin-right: 15%;
+.subheading {
+    font-size: 1.5rem;
+    text-align: right;
 }
