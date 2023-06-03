@@ -25,15 +25,19 @@
     </header>
 
     <div class="grid grid-cols-3 mt-32 mb-16">
-      <div
-        class="flex flex-col col-span-1 justify-self-center border rounded border-pg-blue h-[768px] w-[250px] items-center place-content-between py-8"
-      >
+      <div class="sidebar">
         <!-- Sidebar -->
-        <div class="flex flex-col gap-4">
-          <a href="./"><h2 class="text-2xl">Projects</h2></a>
-          <a href="./blog.html"><h2 class="text-2xl">Blog</h2></a>
-          <a href="./about.html"><h2 class="text-2xl">About</h2></a>
-        </div>
+        <ul class="flex flex-col gap-4">
+          <li>
+            <a href="./"><h2 class="text-2xl text-pg-blue">Projects</h2></a>
+          </li>
+          <li>
+            <a href="./blog.html"><h2 class="text-2xl">Blog</h2></a>
+          </li>
+          <li>
+            <a href="./about.html"><h2 class="text-2xl">About</h2></a>
+          </li>
+        </ul>
         <div class="text-lg">
           <a class="block" href="https://www.linkedin.com/in/bumskim"
             >LinkedIn</a
@@ -50,9 +54,7 @@
           href="https://abumsoo.github.io/tic-tac-toe"
         >
           <h3 class="text-2xl">Tic Tac Toe</h3>
-          <div
-            class="w-full border border-pg-blue rounded h-96 flex justify-center py-8"
-          >
+          <div class="card">
             <img
               class="rounded max-h-[100%] max-w-[100%]"
               src="../assets/gameplay.png"
@@ -65,9 +67,7 @@
           href="https://github.com/abumsoo/csci1300-whatthebin"
         >
           <h3 class="text-2xl">What The Bin</h3>
-          <div
-            class="w-full border border-pg-blue rounded h-96 flex justify-center py-8"
-          >
+          <div class="card">
             <img
               class="rounded max-h-[100%] max-w-[100%]"
               src="../assets/whatTheBin.png"
@@ -75,29 +75,28 @@
           </div>
         </a>
         <!-- Item 1 -->
-        <div class="flex flex-col gap-4">
+        <a class="flex flex-col gap-4" href="https://abumsoo.github.io/library">
           <h3 class="text-2xl">Digital Library</h3>
-          <div
-            class="w-full border border-pg-blue rounded h-96 flex justify-center py-8"
-          >
+          <div class="card">
             <img
               class="rounded max-h-[100%] max-w-[100%]"
               src="../assets/digilib.png"
             />
           </div>
-        </div>
+        </a>
         <!-- Item 1 -->
-        <div class="flex flex-col gap-4">
+        <a
+          class="flex flex-col gap-4"
+          href="https://github.com/abumsoo/Kim_CSCI2270_FinalProject"
+        >
           <h3 class="text-2xl">Super Smash Bros 4 BST</h3>
-          <div
-            class="w-full border border-pg-blue rounded h-96 flex justify-center py-8"
-          >
+          <div class="card">
             <img
               class="rounded max-h-[100%] max-w-[100%]"
               src="../assets/ssb4.png"
             />
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </body>
