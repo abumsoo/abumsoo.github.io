@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.html"],
+export default {
+  content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: { 
+    extend: {
       colors: {
         'pg-grey-dark': '#323139',
         'pg-grey-light': '#47464d',
