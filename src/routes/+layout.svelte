@@ -1,5 +1,5 @@
 <script>
-	import '../app.css';
+	import '../app.postcss';
 	import Header from '../components/Header.svelte';
 	import Sidebar from '../components/Sidebar.svelte';
 </script>
