@@ -1,8 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
-const dev = "production" === "development";
-
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
@@ -18,7 +16,7 @@ const config = {
       assets: "docs",
     }),
     paths: {
-      base : dev ? "" : "/abumsoo.github.io",
+      base : "",
     },
 	}
 };

@@ -7,8 +7,8 @@
 	<!-- Sidebar -->
 	<ul class="flex flex-col gap-4">
 		<li>
-			<a href={base}
-				><h2 class="text-2xl" class:active={$page.url.pathname === base}>Projects</h2></a
+			<a href={base + '/'}
+				><h2 class="text-2xl" class:active={$page.url.pathname === base + '/'}>Projects</h2></a
 			>
 		</li>
 		<li>
