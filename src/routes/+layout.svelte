@@ -1,11 +1,5 @@
 <script>
-	import '../app.postcss';
-	import Header from '../components/Header.svelte';
-	import Sidebar from '../components/Sidebar.svelte';
+	import '../app.css';
 </script>
 
-<Header />
-<div class="grid grid-cols-3 mt-32 mb-16">
-	<Sidebar />
-	<slot />
-</div>
+<slot />
