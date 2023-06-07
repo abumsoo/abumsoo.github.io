@@ -2,4 +2,6 @@
 	import '../app.css';
 </script>
 
-<slot />
+<div class="bg-pg-grey-dark">
+	<slot />
+</div>
