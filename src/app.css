@@ -10,9 +10,9 @@ body {
 	@apply w-full border border-pg-blue rounded h-96 flex justify-center py-8 bg-pg-grey-light;
 }
 
-.sidebar {
-	@apply bg-pg-grey-light flex flex-col col-span-1 justify-self-center border rounded border-pg-blue h-[768px] w-[250px] items-center place-content-between py-8;
-}
+/* .sidebar {
+	@apply bg-pg-grey-light hidden md:flex flex-col col-span-1 justify-self-center border rounded border-pg-blue md:h-[768px] md:w-[250px] items-start md:items-center place-content-between py-8;
+} */
 
 .active {
 	@apply text-pg-blue;
