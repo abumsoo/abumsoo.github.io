@@ -10,9 +10,8 @@ export default function Home() {
     <div>
       <div className="w-screen h-screen relative overflow-hidden">
         <NavBar className="hidden md:block" />
-
         <div className="flex flex-col gap-16 h-full justify-center">
-          <h1 className="animate__animated animate__wobble text-8xl md:text-9xl text-center">
+          <h1 className="animate__animated animate__wobble text-8xl md:text-9xl md:pt-[20vh] text-center">
             Flightless
           </h1>
           <Image
