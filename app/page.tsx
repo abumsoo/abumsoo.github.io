@@ -10,13 +10,14 @@ export default function Home() {
     <div>
       <div className="w-screen h-screen relative overflow-hidden">
         <NavBar className="hidden md:block" />
-        <div className="flex flex-col gap-16 h-full justify-center">
-          <h1 className="animate__animated animate__wobble text-8xl md:text-9xl md:pt-[20vh] text-center">
+
+        <div className="flex flex-col gap-16 h-full md:h-auto justify-center">
+          <h1 className="animate__animated animate__wobble text-8xl md:text-9xl text-center">
             Flightless
           </h1>
           <Image
             alt="white penguin stencil"
-            className={`${styles.pengubg} w-auto h-auto max-h-[100%] object-contain ml-6 mr-6 animate__animated animate__wobble`}
+            className={`${styles.pengubg} w-auto h-auto md:mx-auto md:max-w-[80%] object-contain ml-6 mr-6 animate__animated animate__wobble`}
             width={0}
             height={0}
             sizes="100vh"

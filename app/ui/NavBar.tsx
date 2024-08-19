@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-// import "animate.css";
 import styles from "./navbar.module.css";
 
 type NavBarProps = {
