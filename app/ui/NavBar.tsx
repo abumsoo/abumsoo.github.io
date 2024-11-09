@@ -20,7 +20,10 @@ const NavBar: React.FC<NavBarProps> = (props) => {
           <Link className={`${styles.link}`} href="#about">
             About
           </Link>
-          <Link className={`${styles.link}`} href="#">
+          <Link
+            className={`${styles.link}`}
+            href="mailto: bum.s.kim42@gmail.com"
+          >
             Contact
           </Link>
         </div>

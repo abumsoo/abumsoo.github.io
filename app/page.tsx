@@ -29,15 +29,16 @@ export default function Home() {
         <hr></hr>
         <div className="flex flex-col justify-center gap-1 max-w-[720px] mx-auto py-10">
           <h2 className="text-xl pb-4">
-            Hi! I’m a front-end developer and an aspiring full stack developer
-            based in New York City
+            Hi! I’m a full stack developer based in New York City
           </h2>
           <p>
-            Most of my professional work has involved either TypeScript and
-            React, or TypeScript and Python
+            I have a few years of experience in React, TypeScript/JavaScript,
+            and Python
           </p>
-          <p>I&apos;m currently learning NextJS, TailwindCSS, and Rust</p>
-          <p>I make prototypes for personal projects using Figma</p>
+          <p>
+            I&apos;m currently using NextJS for side projects, and learning
+            embedded software engineering for fun
+          </p>
           <Link
             href="mailto:bum.s.kim42@gmail.com"
             className="underline text-slate-500 pt-4"
@@ -51,8 +52,16 @@ export default function Home() {
         className="flex flex-col mx-2 md:mx-auto max-w-[720px] gap-4 md:gap-12"
         id="projects"
       >
+        <Link href="/projects/visualgo" id="here">
+          <h3 className="text-lg">Algorithm visualizer</h3>
+          <ProjectImage
+            alt="screenshot of quicksort"
+            src="/visualgo.png"
+            bgcolor="bg-[#2a5a65]"
+          />
+        </Link>
         <Link href="/projects/tictactoe" id="here">
-          <h3>Tic Tac Toe AI</h3>
+          <h3 className="text-lg">Tic Tac Toe AI</h3>
           <ProjectImage
             alt="screenshot of tic tac toe game"
             src="/tic-tac-toe.png"
@@ -60,7 +69,7 @@ export default function Home() {
           />
         </Link>
         <Link href="/projects/digilib">
-          <h3>Digilib</h3>
+          <h3 className="text-lg">Digilib</h3>
           <ProjectImage
             alt="screenshot of futuristic digital library"
             src="/digilib.png"
@@ -68,7 +77,7 @@ export default function Home() {
           />
         </Link>
         <Link href="/projects/whatthebin">
-          <h3>What The Bin - pygame</h3>
+          <h3 className="text-lg">What The Bin - pygame</h3>
           <ProjectImage
             alt="screenshot of what the bin game"
             src="/whatthebin.png"
@@ -76,7 +85,7 @@ export default function Home() {
           />
         </Link>
         <Link href="/projects/ssb4">
-          <h3>Super Smash Bros Binary Search Tree</h3>
+          <h3 className="text-lg">Super Smash Bros Binary Search Tree</h3>
           <ProjectImage
             alt="screenshot of command line interface"
             src="/ssb4.png"
