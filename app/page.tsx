@@ -3,7 +3,6 @@ import styles from "./landing.module.css";
 import NavBar from "@/app/ui/NavBar";
 import ProjectImage from "@/app/ui/ProjectItem";
 import Link from "next/link";
-import "animate.css";
 
 export default function Home() {
   return (
@@ -12,12 +11,10 @@ export default function Home() {
         <NavBar className="hidden md:block" />
 
         <div className="flex flex-col gap-16 h-full md:h-auto justify-center">
-          <h1 className="animate__animated animate__wobble text-8xl md:text-9xl text-center">
-            Flightless
-          </h1>
+          <h1 className="text-8xl md:text-9xl text-center">Flightless</h1>
           <Image
             alt="white penguin stencil"
-            className={`${styles.pengubg} w-auto h-auto md:mx-auto md:max-w-[80%] object-contain ml-6 mr-6 animate__animated animate__wobble`}
+            className={`${styles.pengubg} w-auto h-auto md:mx-auto md:max-w-[80%] object-contain ml-6 mr-6`}
             width={0}
             height={0}
             sizes="100vh"
