@@ -1,5 +1,5 @@
 import PenguLink from "@/app/ui/PenguLink";
-import ProjectImage from "@/app/ui/ProjectItem";
+import ProjectImage from "@/app/ui/ProjectImage";
 import ProjectTitle from "@/app/ui/ProjectTitle";
 
 export default function whatthebin() {

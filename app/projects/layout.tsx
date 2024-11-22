@@ -6,7 +6,7 @@ export default function ProjectsLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="mx-2 md:mx-auto max-w-[760px]">
+    <div className="mx-2 md:mx-auto max-w-[540px]">
       <Link className="underline" href="/#projects">
         Back
       </Link>

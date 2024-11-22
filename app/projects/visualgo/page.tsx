@@ -1,5 +1,5 @@
 import PenguLink from "@/app/ui/PenguLink";
-import ProjectImage from "@/app/ui/ProjectItem";
+import ProjectImage from "@/app/ui/ProjectImage";
 import ProjectTitle from "@/app/ui/ProjectTitle";
 
 export default function Ssb4() {
@@ -19,7 +19,7 @@ export default function Ssb4() {
       <ProjectImage
         src="/visualgo0.png"
         alt="screenshot of sorted array in visualgo"
-        bgcolor="bg-[#3f3f3f]"
+        bgcolor="bg-[#172554]"
       />
     </div>
   );

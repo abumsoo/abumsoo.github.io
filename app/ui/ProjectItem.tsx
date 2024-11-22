@@ -1,24 +1,25 @@
-import Image from "next/image";
+import Link from "next/link";
+import ProjectImage from "./ProjectImage";
 
-type ProjectImage = {
-  alt: string;
-  src: string;
-  bgcolor: string;
+type ProjectItemProps = {
+  projectUrl: string;
+  title: string;
+  imgAlt: string;
+  imgSrc: string;
+  imgBgColor: string;
 };
 
-const ProjectImage = (props: ProjectImage) => {
+export default function ProjectItem(props: ProjectItemProps) {
   return (
-    <div className={`${props.bgcolor} flex justify-center`}>
-      <Image
-        alt={props.alt}
-        className="w-auto h-48 md:h-96"
-        src={props.src}
-        width={0}
-        height={0}
-        sizes="100%"
+    <Link href={props.projectUrl}>
+      <h3 className="text-lg underline hover:-translate-y-1 hover:duration-300">
+        {props.title}
+      </h3>
+      <ProjectImage
+        alt={props.imgAlt}
+        src={props.imgSrc}
+        bgcolor={props.imgBgColor}
       />
-    </div>
+    </Link>
   );
-};
-
-export default ProjectImage;
+}

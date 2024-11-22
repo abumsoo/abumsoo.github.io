@@ -1,5 +1,5 @@
 import ProjectTitle from "@/app/ui/ProjectTitle";
-import ProjectImage from "@/app/ui/ProjectItem";
+import ProjectImage from "@/app/ui/ProjectImage";
 import PenguLink from "@/app/ui/PenguLink";
 
 export default function Digilib() {
